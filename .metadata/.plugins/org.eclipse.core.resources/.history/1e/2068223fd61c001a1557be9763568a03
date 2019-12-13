@@ -1,0 +1,23 @@
+package excepciones_creadas;
+
+public class CuantaBancaria {
+	public double saldo;
+	
+	public CuantaBancaria(double saldo){
+		//el saldo pasado por parametro oculta el saldo de atributo
+		//por lo que si queremos acceder al saldo como atributo
+		//deberemos de usar la palabra reservada "this"
+		//"this" es una referencia al propio objeto
+		this.saldo = saldo;		
+	}
+	
+	public double sacarDinero(double cantidad) throws SaldoNegativoException{
+		if(cantidad <= this.saldo){
+			saldo = saldo - cantidad;
+			return cantidad;
+		}else{
+			SaldoNegativoException sne = new SaldoNegativoException("Fondos insuficientes");
+			throw sne;
+		}
+	}
+}

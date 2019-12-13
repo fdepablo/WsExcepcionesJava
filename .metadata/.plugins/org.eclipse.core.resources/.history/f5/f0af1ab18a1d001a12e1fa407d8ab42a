@@ -1,0 +1,16 @@
+package ficheros;
+
+import java.io.File;
+import java.io.FileWriter;
+
+public class EscrituraFichero {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file = new File("nombre.txt");
+		
+		FileWriter fw = new FileWriter(file);
+
+	}
+
+}

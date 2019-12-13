@@ -1,0 +1,12 @@
+package excepciones_creadas;
+
+public class MainCuentaBancaria {
+	public static void main(String[] args) {
+		CuentaBancaria cb = new CuentaBancaria(1000);
+		try {
+			cb.sacarDinero(600);
+		} catch (SaldoNegativoException e) {
+			System.out.println("main -> " + e.getMessage());
+		}
+	}
+}

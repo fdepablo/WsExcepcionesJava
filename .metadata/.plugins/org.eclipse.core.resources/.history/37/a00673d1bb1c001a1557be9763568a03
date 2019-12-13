@@ -1,0 +1,10 @@
+package policia;
+
+public class Bombero extends Persona{
+
+	@Override
+	public void presentarse() {
+		System.out.println("Soy el bombero");
+	}
+	
+}

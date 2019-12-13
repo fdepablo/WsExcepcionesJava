@@ -1,0 +1,10 @@
+package objetos;
+
+//mediante la herencia, extendemos automaticamente
+//todos os atributos y metodos de la clase padre
+//En este caso, policia tiene sin hacer nada
+//los atributos nombre, edad y peso
+//y los metodos, correr, presentarse, cumplirAños
+public class Policia extends Persona{
+
+}

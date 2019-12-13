@@ -1,0 +1,21 @@
+package excepciones;
+
+/*
+ * Las excpeciones en java son errores que pueden
+ * ocurrir en tiempo de ejecución, es decir, 
+ * mientras el programa se esta ejecutando puede ocurrir algun
+ * procesamiento inespeado de datos que nos pare la ejecución
+ * del programa
+ * 
+ * Este tipo de errores es peligroso ya que debemos de controlarlo
+ * como programadores
+ * 
+ */
+public class Excepciones1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

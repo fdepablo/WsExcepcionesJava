@@ -1,0 +1,5 @@
+package policia;
+
+public class Nacional extends Policia{
+	
+}

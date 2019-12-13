@@ -1,0 +1,31 @@
+package policia;
+
+public class Nacional extends Policia{
+	
+	public void expedirDni(Persona p, String dni) throws DniMalFormadoException{
+		
+		Character.isDigit(ch)
+		/*
+		char caracter = dni.charAt(dni.length()-1);
+		switch (caracter) {
+		case '1':
+		case '2':
+		case '3':
+		case '4':
+		case '5':
+		case '6':
+		case '7':
+		case '8':
+		case '9':
+		case '0':
+				
+		default:
+			break;
+		}*/
+		
+		
+		System.out.println("Soy el nacional " + nombre);
+		System.out.println("Voy a expedir el dni " + dni);
+		p.dni = dni;
+	}
+}

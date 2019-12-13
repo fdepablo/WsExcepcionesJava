@@ -1,0 +1,16 @@
+package excepciones;
+
+public class Calculadora {
+	
+	//este metodo no esta muy bien hecho porque arroja
+	//excepciones si avisar al programador que lo este usando
+	public int dividirNormal(int nominador, int denominador){
+		int resultado = nominador / denominador;
+		return resultado;
+	}
+	
+	public int dividirThrow(int nominador,int denominador) throws ArithmeticException{
+		int resultado = nominador / denominador;
+		return resultado;
+	}
+}

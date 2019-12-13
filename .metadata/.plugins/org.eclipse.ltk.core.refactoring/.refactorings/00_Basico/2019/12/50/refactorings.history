@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Ejercicios/src/policia&apos;&#x0D;&#x0A;- Original project: &apos;00_Basico&apos;&#x0D;&#x0A;- Destination element: &apos;Ejercicios/src/policia&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     objetos.Policia.java&#x0D;&#x0A;     objetos.Persona.java" description="Copy compilation units" destination="=Ejercicios/src&lt;policia" element1="/src&lt;objetos{Policia.java" element2="/src&lt;objetos{Persona.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1576139881409" units="2" version="1.0"/>
+</session>

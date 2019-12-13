@@ -1,0 +1,11 @@
+
+public class MainBasico {
+
+	//el metodo main es el punto de entrada
+	//de mi aplicacion java
+	public static void main(String[] args) {
+		System.out.println("hola mundo!");
+		System.out.println("otra vez hola!");
+	}
+
+}

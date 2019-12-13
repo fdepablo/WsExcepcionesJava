@@ -1,0 +1,7 @@
+package excepciones_creadas;
+
+//creamos una excepcion de tipo 
+//unchecked 
+public class CreditoNegativoException {
+
+}

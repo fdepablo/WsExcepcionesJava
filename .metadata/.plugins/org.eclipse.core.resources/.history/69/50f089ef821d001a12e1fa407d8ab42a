@@ -1,0 +1,5 @@
+package policia;
+
+public class DniMalFormadoException extends Exception{
+	
+}

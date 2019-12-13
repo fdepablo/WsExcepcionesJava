@@ -1,0 +1,27 @@
+package excepciones;
+
+import java.util.Scanner;
+
+/*
+ * Las excpeciones en java son errores que pueden
+ * ocurrir en tiempo de ejecución, es decir, 
+ * mientras el programa se esta ejecutando puede ocurrir algun
+ * procesamiento inespeado de datos que nos pare la ejecución
+ * del programa
+ * 
+ * Este tipo de errores es peligroso ya que debemos de controlarlo
+ * como programadores y así evitar que el programa se pare
+ * 
+ */
+public class Excepciones1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduzca un numero: ");
+		int numero = sc.nextInt();
+		System.out.println("el numero introducido es: " + numero);
+
+	}
+
+}

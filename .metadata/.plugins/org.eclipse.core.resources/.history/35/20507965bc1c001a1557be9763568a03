@@ -1,0 +1,13 @@
+package policia;
+
+public class MainPolicia {
+	public static void main(String[] args) {
+		Persona[] arrayPersonas = new Persona[4];
+		
+		Persona persona = new Persona();
+		persona.nombre = "Harry Potter";
+		persona.edad = 17;
+		persona.peso = 55.6;
+		
+	}
+}

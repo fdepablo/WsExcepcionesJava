@@ -1,0 +1,12 @@
+package policia;
+
+public class Municipal extends Policia{
+
+	public void multar(Persona p, int cantidad) {
+		// TODO Auto-generated method stub
+		super.multar(p, cantidad);
+	}
+	
+	
+
+}

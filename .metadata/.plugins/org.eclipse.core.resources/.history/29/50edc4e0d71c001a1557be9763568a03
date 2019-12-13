@@ -1,0 +1,10 @@
+package excepciones_creadas;
+
+//creamos una excepcion de tipo 
+//unchecked 
+public class CreditoNegativoException extends RuntimeException{
+	
+	public CreditoNegativoException(String mensaje){
+		super(mensaje);
+	}
+}

@@ -1,0 +1,9 @@
+package excepciones;
+
+public class Calculadora {
+	
+	public int dividirNormal(int nominador, int denominador){
+		int resultado = nominador / denominador;
+		return resultado;
+	}
+}

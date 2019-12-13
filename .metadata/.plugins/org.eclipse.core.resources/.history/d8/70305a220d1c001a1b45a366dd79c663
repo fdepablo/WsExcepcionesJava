@@ -1,0 +1,24 @@
+package objetos;
+
+//mediante la herencia, extendemos automaticamente
+//todos os atributos y metodos de la clase padre
+//En este caso, policia tiene sin hacer nada
+//los atributos nombre, edad y peso
+//y los metodos, correr, presentarse, cumplirAños
+public class Policia extends Persona{
+	public int numeroPlaca;
+	
+	public void multar(Persona p, int cantidad){
+		System.out.println("Soy el policia " + nombre + " con numero de placa " + 
+			numeroPlaca + " y voy a multar a la persona " + p.nombre + " con la"
+					+ " cantidad de " + cantidad);
+	}
+
+	@Override
+	public void presentarse() {
+		
+	}
+	
+	
+	
+}

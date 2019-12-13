@@ -1,0 +1,17 @@
+package excepciones_creadas;
+
+public class MainCuentaBancaria {
+	public static void main(String[] args) {
+		CuentaBancaria cb = new CuentaBancaria(1000);
+		try {
+			//al ser una excepcion de tipo checked tenemos la obligación
+			//de caputarla rodeando el metodo con un try-catch
+			//si no lo hacemos, el programa ni siquiera compila
+			cb.sacarDinero(600);
+		} catch (SaldoNegativoException e) {
+			//getMessage es un metodo que devuelve la cadena de texto
+			// con la que se creo la excepcion, es optativo
+			System.out.println("main -> " + e.getMessage());
+		}
+	}
+}

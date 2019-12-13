@@ -1,0 +1,7 @@
+package excepciones_creadas;
+
+public class MainCuentaBancaria {
+	public static void main(String[] args) {
+		CuentaBancaria cb = new CuentaBancaria(1000);
+	}
+}

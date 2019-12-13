@@ -1,0 +1,12 @@
+package ficheros;
+
+import java.io.File;
+
+public class Archivos {
+	public static void main(String[] args) {
+		//Para trabajar con fichero podemos hacerlo de manera
+		//relativa al proyecto o absoluta. De manera absuluta "C:/fichero.txt" o
+		// "C:\\fichero.txt"
+		File file = new File("fichero.txt");
+	}
+}

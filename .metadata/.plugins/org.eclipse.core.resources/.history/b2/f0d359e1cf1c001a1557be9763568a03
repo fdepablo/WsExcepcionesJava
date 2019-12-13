@@ -1,0 +1,8 @@
+package excepciones;
+
+public class Excepciones7 {
+	public static void main(String[] args) {
+		Calculadora cal = new Calculadora();
+		int resultado = cal.dividirNormal(10, 0);
+	}
+}

@@ -1,0 +1,25 @@
+
+public class MainTipos {
+
+	public static void main(String[] args) {
+		//java es un lenguaje tipado, quiere decir
+		//que las variables donde vamos a almacenar
+		//la información en memoria, tiene que ser
+		//de un tipo especifico
+		int numero = 1;//naturales positivos o negativos
+		double decimal = 13.45;//numeros reales
+		boolean cierto = true;//booleanos que sirven para guardar true o false
+		cierto = false;//solo estos dos valores
+		
+		//particularidades
+		numero = 07200;
+		System.out.println(numero);
+		
+		String cp = "07200";
+		System.out.println(cp);
+		
+		//Integer integer = 07200;
+		
+	}
+
+}

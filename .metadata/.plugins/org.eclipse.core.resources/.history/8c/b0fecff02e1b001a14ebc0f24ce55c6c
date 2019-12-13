@@ -1,0 +1,13 @@
+
+public class MainMetodos {
+	public static void main(String[] args) {
+		System.out.println("Primera linea del programa");
+		funcion1();
+		funcion1();
+	}
+	
+	public static void funcion1(){
+		System.out.println("Hola funcion1");
+	}
+	
+}

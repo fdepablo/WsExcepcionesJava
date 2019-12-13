@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MainScanner {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Introduzca un numero: ");
+		
+		//para leer datos introducidos por el teclado, podemos
+		//utilizar las clase Scanner
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

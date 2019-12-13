@@ -1,0 +1,9 @@
+package policia;
+
+public class Nacional extends Policia{
+	
+	public void expedirDni(Persona p, String dni){
+		System.out.println("Soy el nacional " + nombre);
+		System.out.println("Voy a expedir el dni " + dni);
+	}
+}

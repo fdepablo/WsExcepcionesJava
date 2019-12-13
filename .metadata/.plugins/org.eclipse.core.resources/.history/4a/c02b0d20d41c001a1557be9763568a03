@@ -1,0 +1,11 @@
+package excepciones_creadas;
+
+//para crear un excepcion debemos de crear una clase
+//que extienda o de Exception o de RuntimeException
+//Si extendemos de la clase Exception estaremos creando
+//una excepcion de tipo "checked" lo que querra decir
+//que el programador tiene la obligación de controlar
+//dicha Excepcion
+public class SaldoNegativoException {
+
+}

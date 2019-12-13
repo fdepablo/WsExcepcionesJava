@@ -1,0 +1,28 @@
+package objetos;
+
+public class MainPersona {
+
+	public static void main(String[] args) {
+		Persona p1 = new Persona();
+		p1.nombre = "Bud Spencer";
+		p1.edad = 89;
+		p1.peso = 130;
+		
+		Persona p2 = p1;
+		
+		Persona p3 = new Persona();
+		p3.nombre = "Terence hill";
+		p3.edad = 75;
+		p3.peso = 70;
+		
+		Persona p4 = p3;
+		p4.edad = 55;
+		System.out.println(p3.edad);
+		
+		p3.presentarse();
+		p4.presentarse();
+		p4 = p1;
+
+	}
+
+}

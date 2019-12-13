@@ -1,0 +1,24 @@
+package menu;
+
+import java.util.Scanner;
+
+public class MenuMain {
+	public static void main(String[] args) {
+		System.out.println("1- Sumar");
+		System.out.println("2- Restar");
+		System.out.println("3- Multiplicar");
+		System.out.println("4- Dividir");
+		System.out.println("Seleccione una opcion:");
+		
+		Scanner sc = new Scanner(System.in);
+		int opcion = sc.nextInt();
+		
+		System.out.println("Ponga el numero1 y el numero2: ");
+		int numero1 = sc.nextInt();
+		int numero2 = sc.nextInt();
+		
+		if(opcion == 1){
+			int resultado = numero1 + numero2;
+		}
+	}
+}
